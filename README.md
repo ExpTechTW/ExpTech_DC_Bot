@@ -19,7 +19,15 @@
 </p>
 
 ## 項目概要
-* 這是一個模板
+* 這是一個由 ExpTech.tw 開發的機器人
+* [邀請鏈接]( https://reurl.cc/Xloo6D)
+* 官方 [Discord](https://discord.gg/rkPu3msUf3)
+
+## 索引
+ - [開始](#)
+
+## 文檔
+### 開始
 
 ## 貢獻者
 * whes1015 - 編輯模板
