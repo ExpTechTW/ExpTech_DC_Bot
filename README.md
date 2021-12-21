@@ -35,6 +35,10 @@
 * 使用 /et register 申請服務
 ### 權限
 ### 指令
+#### /et register 
+- 權限: 4
+- 默認: null
+- 選項: null
 
 ## 貢獻者
 * whes1015 - 編輯模板
