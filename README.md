@@ -60,7 +60,7 @@
 
 # /et
 ## register 
-- 完整指令: /et register 
+- 完整指令: ```/et register```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
 - 默認: ```null```
@@ -70,7 +70,7 @@
 
 ## set
 #### apikey
-- 完整指令: /et set apikey [你的 API Key]
+- 完整指令: ```/et set apikey [你的 API Key]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
 - 默認: ```null```
@@ -78,7 +78,7 @@
 - 說明: 用來向 ExpTech_Discord_Bot 註冊服務
 
 #### urlchecker
-- 完整指令: /et set urlchecker [選項]
+- 完整指令: ```/et set urlchecker [選項]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 3
 - 默認: ```false```
@@ -88,7 +88,7 @@
 # /mc
 ## je
 #### certified
-- 完整指令: /mc je certified [玩家代號]
+- 完整指令: ```/mc je certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
@@ -97,7 +97,7 @@
 
 ## be
 #### certified
-- 完整指令: /mc be certified [玩家代號]
+- 完整指令: ```/mc be certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
