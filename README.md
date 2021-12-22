@@ -47,19 +47,19 @@
 
 ### 指令
 #### 指令列表
-##### [/et]()
+##### [/et](#et)
 - [register](#register)
 - [set](#set)
   - [apikey](#apikey)
-- []()
+  - [urlchecker](#urlchecker)
 
 # /et
 ## register 
 - 完整指令: /et register 
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
-- 默認: null
-- 選項: null
+- 默認: ```null```
+- 選項: ```null```
 - 說明: 每個伺服器可以申請一個 API Key 用來註冊 ExpTech_Discord_Bot 的服務
 ，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
 
@@ -68,9 +68,17 @@
 - 完整指令: /et set apikey [你的 API Key]
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
-- 默認: [String]
-- 選項: null
+- 默認: ```null```
+- 選項: ```String```
 - 說明: 用來向 ExpTech_Discord_Bot 註冊服務
+
+#### urlchecker
+- 完整指令: /et set urlchecker [選項]
+- 加入版本: 21w52-pre1
+- 權限: ≥ 4
+- 默認: ```false```
+- 選項: ```false``` ```true```
+- 說明: 用來向 ExpT
 
 ## 貢獻者
 * whes1015 - 程式開發
