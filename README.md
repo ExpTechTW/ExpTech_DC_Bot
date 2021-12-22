@@ -1,4 +1,4 @@
-# ExpTech 探索科技 GitHub
+# ExpTech_Discord_Bot GitHub
 <img alt="Discord" src="https://img.shields.io/discord/857181425908318218">
 編程、設計、創意、實用
 <br>
@@ -18,12 +18,12 @@
   </p>
 </p>
 
-## 項目概要
+# 項目概要
 * 這是一個由 ExpTech.tw 開發的 Discord 機器人
 * [邀請鏈接]( https://reurl.cc/Xloo6D)
 * 官方 [Discord](https://discord.gg/rkPu3msUf3)
 
-## 索引
+# 索引
 - [開始](#開始)
   - [註冊服務](#註冊服務)
 - [權限](#權限)
@@ -31,27 +31,30 @@
   - [指令列表](#指令列表)
 - [貢獻者](#貢獻者)
 
-## 文檔
-### 開始
+# 文檔
+## 開始
 #### 註冊服務
 * 1.邀請 Discord 機器人
 * 2.使用 /et register 申請服務
 * 3.使用 /et apikey <你的 API Key> 來註冊服務
 
-### 權限
+## 權限
 - 4 - owner - 擁有者
 - 3 - admin - 管理員
 - 2 - helper - 幫手
 - 1 - user - 普通用戶 (默認)
 - 0 - guest - 訪客或熊孩子 (禁用所有指令)
 
-### 指令
+## 指令
 #### 指令列表
 ##### [/et](#et)
 - [register](#register)
 - [set](#set)
   - [apikey](#apikey)
   - [urlchecker](#urlchecker)
+##### [/mc](#mc)
+- [je](#je)
+- [be](#be)
 
 # /et
 ## register 
@@ -75,10 +78,15 @@
 #### urlchecker
 - 完整指令: /et set urlchecker [選項]
 - 加入版本: 21w52-pre1
-- 權限: ≥ 4
+- 權限: ≥ 3
 - 默認: ```false```
 - 選項: ```false``` ```true```
 - 說明: 用來檢測惡意網址的功能
 
-## 貢獻者
+# /mc
+## je
+
+## be
+
+# 貢獻者
 * whes1015 - 程式開發
