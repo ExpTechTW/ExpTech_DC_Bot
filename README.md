@@ -60,6 +60,7 @@
 - [be](#be)
   - [certified-be](#certified-be)
   - [user-be](#user-be)
+##### [/premission](#premission)
 
 # /et
 ## bot
@@ -131,6 +132,14 @@
 - 默認: ```null```
 - 選項: ```String``` ```Int```
 - 說明: Minecraft Bedrock Edition 帳號認證
+
+# /premission
+- 完整指令: ```/premission [用戶] [等級]```
+- 加入版本: 21w52-pre1
+- 權限: 無定值
+- 默認: ```null```
+- 選項: ```user``` ```Int```
+- 說明: 設定 Discord 用戶的權限等級
 
 # 貢獻者
 * whes1015 - 程式開發
