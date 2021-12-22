@@ -47,7 +47,7 @@
 ### 指令
 #### 指令列表
 - [register](#register)
-- [apikey](apikey)
+- [apikey](#apikey)
 
 #### register 
 - 完整指令: /et register 
