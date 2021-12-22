@@ -47,20 +47,20 @@
 
 ## 指令
 #### 指令列表
-[/et](#et)
-- [bot](#bot)
-  - [register](#register)
-  - [apikey](#apikey)
-- [set](#set)
-  - [urlchecker](#urlchecker)
-[/mc](#mc)
-- [je](#je)
-  - [certified-je](#certified-je)
-  - [user-je](#user-je)
-- [be](#be)
-  - [certified-be](#certified-be)
-  - [user-be](#user-be)
-[/premission](#premission)
+- [/et](#et)
+  - [bot](#bot)
+    - [register](#register)
+    - [apikey](#apikey)
+  - [set](#set)
+    - [urlchecker](#urlchecker)
+- [/mc](#mc)
+  - [je](#je)
+    - [certified](#certified)
+    - [user](#user)
+  - [be](#be)
+    - [certified](#certified)
+    - [user](#user)
+- [/premission](#premission)
 
 # /et
 ## bot
@@ -100,16 +100,16 @@
 
 # /mc
 ## je
-#### certified-je
-- 完整指令: ```/mc je certified-je [玩家代號]```
+#### certified
+- 完整指令: ```/mc je certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
 - 選項: ```String```
 - 說明: Minecraft Java Edition 帳號認證
 
-#### user-je
-- 完整指令: ```/mc je user-je [玩家代號]```
+#### user
+- 完整指令: ```/mc je user [玩家代號]```
 - 加入版本: 尚未完成
 - 權限: ≥ 1
 - 默認: ```null```
@@ -117,16 +117,16 @@
 - 說明: Minecraft Java Edition 帳號認證
 
 ## be
-#### certified-be
-- 完整指令: ```/mc be certified-be [玩家代號]```
+#### certified
+- 完整指令: ```/mc be certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
 - 選項: ```String```
 - 說明: Minecraft Bedrock Edition 帳號認證
 
-#### user-be
-- 完整指令: ```/mc be user-be [玩家代號]```
+#### user
+- 完整指令: ```/mc be user [玩家代號]```
 - 加入版本: 尚未完成
 - 權限: ≥ 1
 - 默認: ```null```
