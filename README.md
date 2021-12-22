@@ -55,8 +55,10 @@
 ##### [/mc](#mc)
 - [je](#je)
   - [certified](#certified)
+  - [user](#user)
 - [be](#be)
   - [certified](#certified)
+  - [user](#user)
 
 # /et
 ## register 
@@ -95,6 +97,8 @@
 - 選項: ```String```
 - 說明: Minecraft Java Edition 帳號認證
 
+#### user
+
 ## be
 #### certified
 - 完整指令: ```/mc be certified [玩家代號]```
@@ -103,6 +107,8 @@
 - 默認: ```null```
 - 選項: ```String```
 - 說明: Minecraft Bedrock Edition 帳號認證
+
+#### user
 
 # 貢獻者
 * whes1015 - 程式開發
