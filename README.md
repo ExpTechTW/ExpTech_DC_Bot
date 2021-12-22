@@ -54,7 +54,9 @@
   - [urlchecker](#urlchecker)
 ##### [/mc](#mc)
 - [je](#je)
+  - [certified](#certified)
 - [be](#be)
+  - [certified](#certified)
 
 # /et
 ## register 
@@ -85,7 +87,8 @@
 
 # /mc
 ## je
-- 完整指令: /mc je [玩家代號]
+#### certified
+- 完整指令: /mc je certified [玩家代號]
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
@@ -93,7 +96,8 @@
 - 說明: Minecraft Java Edition 帳號認證
 
 ## be
-- 完整指令: /mc be [玩家代號]
+#### certified
+- 完整指令: /mc be certified [玩家代號]
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
 - 默認: ```null```
