@@ -53,7 +53,7 @@
 #### register 
 - 完整指令: /et register 
 - 加入版本: 21w52-pre1
-- 權限: 4
+- 權限: ≥4
 - 默認: null
 - 選項: null
 - 說明: 每個伺服器可以申請一個 API Key 用來註冊 ExpTech_Discord_Bot 的服務
@@ -62,7 +62,7 @@
 #### apikey
 - 完整指令: /et apikey <你的 API Key>
 - 加入版本: 21w52-pre1
-- 權限: 4
+- 權限: ≥4
 - 默認: [String]
 - 選項: null
 - 說明: 用來向 ExpTech_Discord_Bot 註冊服務
