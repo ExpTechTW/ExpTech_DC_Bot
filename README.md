@@ -85,8 +85,20 @@
 
 # /mc
 ## je
+- 完整指令: /mc je [玩家代號]
+- 加入版本: 21w52-pre1
+- 權限: ≥ 1
+- 默認: ```null```
+- 選項: ```String```
+- 說明: Minecraft Java Edition 帳號認證
 
 ## be
+- 完整指令: /mc be [玩家代號]
+- 加入版本: 21w52-pre1
+- 權限: ≥ 1
+- 默認: ```null```
+- 選項: ```String```
+- 說明: Minecraft Bedrock Edition 帳號認證
 
 # 貢獻者
 * whes1015 - 程式開發
