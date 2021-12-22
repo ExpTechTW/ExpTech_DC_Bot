@@ -36,41 +36,17 @@
 * 使用 /et register 申請服務
 
 ### 權限
-owner
-
-4
-
-最高權限，所有者，具有控制物理服務器的能力嗎。例子：服務器擁有者
-
-admin
-
-3
-
-管理員，擁有控制MCDR 與Minecraft 服務器的能力。例子：Minecraft 中的OP
-
-helper
-
-2
-
-助手，可以協助管理員進行服務器管理。例子：值得信賴的成員
-
-user
-
-1
-
-普通玩家
-
-guest
-
-
-
-最低權限，如訪客或者熊孩子
+- 4 - owner - 擁有者
+- 3 - admin - 管理員
+- 2 - helper - 幫手
+- 1 - user - 普通用戶 (默認)
+- 0 - guest - 訪客或熊孩子
 
 ### 指令
 #### 指令列表
-- [/et register](#/et register)
+- [et register](#et register)
 
-#### /et register 
+#### et register 
 - 權限: 4
 - 默認: null
 - 選項: null
