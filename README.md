@@ -33,7 +33,9 @@
 ## 文檔
 ### 開始
 #### 註冊服務
-* 使用 /et register 申請服務
+* 1.邀請 Discord 機器人
+* 2.使用 /et register 申請服務
+* 3.使用 /et apikey <你的 API Key> 來註冊服務
 
 ### 權限
 - 4 - owner - 擁有者
@@ -45,6 +47,7 @@
 ### 指令
 #### 指令列表
 - [register](#register)
+- [apikey](apikey)
 
 #### register 
 - 完整指令: /et register 
@@ -52,8 +55,16 @@
 - 權限: 4
 - 默認: null
 - 選項: null
-- 說明: 每個伺服器可以申請一個 APIkey 用來註冊 ExpTech_Discord_Bot 的服務
-，或是用來自製機器人，每個 APIkey 的每日請求限制為 50000 次。
+- 說明: 每個伺服器可以申請一個 API Key 用來註冊 ExpTech_Discord_Bot 的服務
+，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
+
+#### apikey
+- 完整指令: /et apikey <你的 API Key>
+- 加入版本: 21w52-pre1
+- 權限: 4
+- 默認: [String]
+- 選項: null
+- 說明: 用來向 ExpTech_Discord_Bot 註冊服務
 
 ## 貢獻者
 * whes1015 - 程式開發
