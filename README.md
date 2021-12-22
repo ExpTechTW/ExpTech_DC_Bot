@@ -49,17 +49,17 @@
 #### 指令列表
 - [/et](#et)
   - [bot](#bot)
-    - [register](#register)
-    - [apikey](#apikey)
+    - register
+    - apikey
   - [set](#set)
-    - [urlchecker](#urlchecker)
+    - urlchecker
 - [/mc](#mc)
   - [je](#je)
-    - [certified](#certified)
-    - [user](#user)
+    - certified
+    - user
   - [be](#be)
-    - [certified](#certified)
-    - [user](#user)
+    - certified
+    - user
 - [/premission](#premission)
 
 # /et
