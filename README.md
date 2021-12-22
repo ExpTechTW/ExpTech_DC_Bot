@@ -98,6 +98,12 @@
 - 說明: Minecraft Java Edition 帳號認證
 
 #### user
+- 完整指令: ```/mc je user [玩家代號]```
+- 加入版本: 21w52-pre1
+- 權限: ≥ 1
+- 默認: ```null```
+- 選項: ```String``` ```Int```
+- 說明: Minecraft Java Edition 帳號認證
 
 ## be
 #### certified
@@ -109,6 +115,12 @@
 - 說明: Minecraft Bedrock Edition 帳號認證
 
 #### user
+- 完整指令: ```/mc be user [玩家代號]```
+- 加入版本: 21w52-pre1
+- 權限: ≥ 1
+- 默認: ```null```
+- 選項: ```String``` ```Int```
+- 說明: Minecraft Bedrock Edition 帳號認證
 
 # 貢獻者
 * whes1015 - 程式開發
