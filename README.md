@@ -47,22 +47,22 @@
 
 ## 指令
 #### 指令列表
-##### [et](#et)
+[/et](#et)
 - [bot](#bot)
   - [register](#register)
   - [apikey](#apikey)
 - [set](#set)
   - [urlchecker](#urlchecker)
-##### [mc](#mc)
+[/mc](#mc)
 - [je](#je)
   - [certified-je](#certified-je)
   - [user-je](#user-je)
 - [be](#be)
   - [certified-be](#certified-be)
   - [user-be](#user-be)
-##### [premission](#premission)
+[/premission](#premission)
 
-# et
+# /et
 ## bot
 #### register 
 - 完整指令: ```/et bot register```
@@ -98,7 +98,7 @@
 - 選項: ```null```
 - 說明: 設定機器人的公告頻道
 
-# mc
+# /mc
 ## je
 #### certified-je
 - 完整指令: ```/mc je certified-je [玩家代號]```
@@ -133,7 +133,7 @@
 - 選項: ```String``` ```Int```
 - 說明: Minecraft Bedrock Edition 帳號認證
 
-# premission
+# /premission
 - 完整指令: ```/premission [用戶] [等級]```
 - 加入版本: 21w52-pre1
 - 權限: 無定值
