@@ -78,7 +78,7 @@
 
 #### resetAPIKey
 - 完整指令: ```/et bot resetAPIKey```
-- 加入版本: 21w52-pre1
+- 加入版本: 21w52-pre
 - 權限: ≥ 4
 - 支援: ```Server```
 - 默認: ```null```
