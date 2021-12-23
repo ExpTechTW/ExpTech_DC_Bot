@@ -35,8 +35,8 @@
 ## 開始
 #### 註冊服務
 * 1.邀請 Discord 機器人
-* 2.使用 /et register 申請服務
-* 3.使用 /et set apikey [你的 API Key] 來註冊服務
+* 2.使用 /et bot register 申請服務
+* 3.使用 /et bot apikey [你的 API Key] 來註冊服務
 
 ## 權限
 - 4 - owner - 擁有者
