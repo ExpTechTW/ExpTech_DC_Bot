@@ -49,22 +49,24 @@
 
 ## 指令
 #### 指令列表
-##### [/et](#et)
-- [register](#register)
-- [set](#set)
-  - [apikey](#apikey)
-  - [urlchecker](#urlchecker)
-  - [certifiedNameChange](#certifiedNameChange)
-##### [/mc](#mc)
-- [je](#je)
-  - [certified](#certified)
-  - [user](#user)
-- [be](#be)
-  - [certified](#certified)
-  - [user](#user)
+- [/et](#et)
+  - [bot]()
+    - register
+  - [set](#set)
+    - apikey
+    - urlchecker
+    - certifiedNameChange
+- [/mc](#mc)
+  - [je](#je)
+    - certified
+    - user
+  - [be](#be)
+    - certified
+    - user
 
 # /et
-## register 
+## bot
+#### register 
 - 完整指令: ```/et register```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
