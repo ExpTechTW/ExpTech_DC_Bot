@@ -64,6 +64,14 @@
     - certified
     - user
 - [/permission](#permission)
+- [/sign](#sign)
+- [/coin](#coin)
+  - [sell](#sell)
+    - upToShop
+    - downFormShop
+  - [buy](#buy)
+    - upToShop
+    - downFormShop
 
 # /et
 ## bot
@@ -152,6 +160,54 @@
 - 默認: ```null```
 - 選項: ```Int``` ```null```
 - 說明: 用來給予用戶權限或查詢
+
+# /sign
+- 完整指令: ```/sign```
+- 加入版本: 21w52-pre5
+- 權限: ≥ 0
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```null```
+- 說明: 經濟系統 簽到 獲取積分
+
+# /coin
+## sell
+#### upToShop
+- 完整指令: ```/coin sell upToShop [數量] [價格]```
+- 加入版本: 21w52-pre5
+- 權限: ≥ 0
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```Int```
+- 說明: 刊登 硬幣 跟 售價 至 商店 等待其他有意願購買的用戶購買
+
+#### downFormShop
+- 完整指令: ```/coin sell downFormShop [交易編號]```
+- 加入版本: 21w52-pre5
+- 權限: ≥ 0
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```Int```
+- 說明: 賣 硬幣 給刊登 購買意願 的 買家
+
+## buy
+#### upToShop
+- 完整指令: ```/coin buy upToShop [數量] [價格]```
+- 加入版本: 21w52-pre5
+- 權限: ≥ 0
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```Int```
+- 說明: 刊登 購買意願 及 價格 等待其他有意願出售硬幣的用戶出售
+
+#### downFormShop
+- 完整指令: ```/coin buy downFormShop [交易編號]```
+- 加入版本: 21w52-pre5
+- 權限: ≥ 0
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```Int```
+- 說明: 從 刊登在 商店 的賣家手中買入 硬幣 
 
 # 常見問題
 #### 問題列表
