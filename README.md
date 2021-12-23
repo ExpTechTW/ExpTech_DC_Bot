@@ -37,6 +37,8 @@
 * 1.邀請 Discord 機器人
 * 2.使用 /et bot register 申請服務並獲取 API Key
 * 3.使用 /et bot apikey [你的 API Key] 來註冊服務
+* 4.API 用法請參考 [這裡](https://github.com/ExpTechTW/API/blob/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/README.md)
+* 5.若 API Key 洩漏 請使用 /et bot resetAPIKey
 
 ## 權限
 - 4 - owner - 擁有者
