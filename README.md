@@ -116,13 +116,13 @@
 - 說明: Minecraft Java Edition 帳號認證
 
 #### user
-- 完整指令: ```/mc je user [玩家代號]```
-- 加入版本: 尚未完成
+- 完整指令: ```/mc je user [玩家代號/UUID]```
+- 加入版本: 21w52-pre3
 - 權限: ≥ 1
 - 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```String``` ```Int```
-- 說明: Minecraft Java Edition 帳號認證
+- 說明: Minecraft Java Edition 玩家數據獲取
 
 ## be
 #### certified
