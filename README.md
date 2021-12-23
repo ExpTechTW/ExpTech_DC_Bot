@@ -35,8 +35,8 @@
 ## 開始
 #### 註冊服務
 * 1.邀請 Discord 機器人
-* 2.使用 /et bot register 申請服務
-* 3.使用 /et bot apikey [你的 API Key] 來註冊服務
+* 2.使用 /et register 申請服務
+* 3.使用 /et set apikey [你的 API Key] 來註冊服務
 
 ## 權限
 - 4 - owner - 擁有者
@@ -47,56 +47,48 @@
 
 ## 指令
 #### 指令列表
-- [/et](#et)
-  - [bot](#bot)
-    - register
-    - apikey
-  - [set](#set)
-    - urlchecker
-- [/mc](#mc)
-  - [je](#je)
-    - certified
-    - user
-  - [be](#be)
-    - certified
-    - user
-- [/premission](#premission)
+##### [/et](#et)
+- [register](#register)
+- [set](#set)
+  - [apikey](#apikey)
+  - [urlchecker](#urlchecker)
+##### [/mc](#mc)
+- [je](#je)
+  - [certified](#certified)
+  - [user](#user)
+- [be](#be)
+  - [certified](#certified)
+  - [user](#user)
 
 # /et
-## bot
-#### register 
-- 完整指令: ```/et bot register```
+## register 
+- 完整指令: ```/et register```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```null```
 - 說明: 每個伺服器可以申請一個 API Key 用來註冊 ExpTech_Discord_Bot 的服務
 ，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
 
+## set
 #### apikey
-- 完整指令: ```/et bot apikey [你的 API Key]```
+- 完整指令: ```/et set apikey [你的 API Key]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```String```
 - 說明: 用來向 ExpTech_Discord_Bot 註冊服務
 
-## set
 #### urlchecker
 - 完整指令: ```/et set urlchecker [選項]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 3
+- 支援: ```Server```
 - 默認: ```false```
 - 選項: ```false``` ```true```
 - 說明: 用來檢測惡意網址的功能
-
-#### announcementchannel
-- 完整指令: ```/et set announcementchannel```
-- 加入版本: 21w52-pre1
-- 權限: ≥ 3
-- 默認: ```null```
-- 選項: ```null```
-- 說明: 設定機器人的公告頻道
 
 # /mc
 ## je
@@ -104,42 +96,38 @@
 - 完整指令: ```/mc je certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```String```
 - 說明: Minecraft Java Edition 帳號認證
 
 #### user
 - 完整指令: ```/mc je user [玩家代號]```
-- 加入版本: 尚未完成
+- 加入版本: 21w52-pre1
 - 權限: ≥ 1
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```String``` ```Int```
-- 說明: Minecraft Java Edition 帳號 玩家數據查看
+- 說明: Minecraft Java Edition 帳號認證
 
 ## be
 #### certified
 - 完整指令: ```/mc be certified [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```String```
 - 說明: Minecraft Bedrock Edition 帳號認證
 
 #### user
 - 完整指令: ```/mc be user [玩家代號]```
-- 加入版本: 尚未完成
+- 加入版本: 21w52-pre1
 - 權限: ≥ 1
+- 支援: ```Server```
 - 默認: ```null```
 - 選項: ```String``` ```Int```
-- 說明: Minecraft Bedrock Edition 帳號 玩家數據查看
-
-# /premission
-- 完整指令: ```/premission [用戶] [等級]```
-- 加入版本: 21w52-pre1
-- 權限: ≥ 3
-- 默認: ```null```
-- 選項: ```user``` ```Int```
-- 說明: 設定 Discord 用戶的權限等級
+- 說明: Minecraft Bedrock Edition 帳號認證
 
 # 貢獻者
 * whes1015 - 程式開發
