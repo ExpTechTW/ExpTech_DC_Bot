@@ -173,7 +173,7 @@
 # /coin
 ## sell
 #### upToShop
-- 完整指令: ```/coin sell upToShop [數量] [價格]```
+- 完整指令: ```/coin sell upToShop [數量] [單價]```
 - 加入版本: 21w52-pre5
 - 權限: ≥ 0
 - 支援: ```Server```
@@ -192,7 +192,7 @@
 
 ## buy
 #### upToShop
-- 完整指令: ```/coin buy upToShop [數量] [價格]```
+- 完整指令: ```/coin buy upToShop [數量] [單價]```
 - 加入版本: 21w52-pre5
 - 權限: ≥ 0
 - 支援: ```Server```
