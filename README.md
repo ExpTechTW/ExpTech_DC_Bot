@@ -63,6 +63,7 @@
   - [be](#be)
     - certified
     - user
+- [/premission](#premission)
 
 # /et
 ## bot
@@ -142,6 +143,15 @@
 - 默認: ```null```
 - 選項: ```String``` ```Int```
 - 說明: Minecraft Bedrock Edition 帳號認證
+
+# /premission
+- 完整指令: ```/premission [用戶] [選項]```
+- 加入版本: 21w52-pre3
+- 權限: ≥ 3 && ≥ 選項值
+- 支援: ```Server```
+- 默認: ```null```
+- 選項: ```Int``` ```null```
+- 說明: 用來給予用戶權限或查詢
 
 # 常見問題
 #### 問題列表
