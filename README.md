@@ -25,7 +25,7 @@
 
 # 索引
 - [開始](#開始)
-  - [註冊服務](#註冊服務)
+  - [啟動服務](#啟動服務)
 - [權限](#權限)
 - [指令](#指令)
   - [指令列表](#指令列表)
@@ -34,11 +34,11 @@
 
 # 文檔
 ## 開始
-#### 註冊服務
+#### 啟動服務
 * 1.邀請 Discord 機器人
 * 2.使用 /et bot register 啟動服務並獲取 API Key
-* 3.API 用法請參考 [這裡](https://github.com/ExpTechTW/API/blob/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/README.md)
-* 4.若 API Key 洩漏 請使用 /et bot resetAPIKey
+* 3.若 API Key 洩漏 請使用 /et bot resetAPIKey
+* 4. API 用法請參考 [這裡](https://github.com/ExpTechTW/API/blob/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/README.md)
 
 ## 權限
 - 4 - owner - 擁有者
