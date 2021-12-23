@@ -52,6 +52,7 @@
 - [set](#set)
   - [apikey](#apikey)
   - [urlchecker](#urlchecker)
+  - [certifiedNameChange](#certifiedNameChange)
 ##### [/mc](#mc)
 - [je](#je)
   - [certified](#certified)
