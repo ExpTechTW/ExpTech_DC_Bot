@@ -90,6 +90,15 @@
 - 選項: ```false``` ```true```
 - 說明: 用來檢測惡意網址的功能
 
+#### certifiedNameChange
+- 完整指令: ```/et set certifiedNameChange [選項]```
+- 加入版本: 21w52-pre1
+- 權限: ≥ 3
+- 支援: ```Server```
+- 默認: ```false```
+- 選項: ```false``` ```true```
+- 說明: 認證後更改用戶暱稱
+
 # /mc
 ## je
 #### certified
@@ -105,7 +114,7 @@
 - 完整指令: ```/mc je user [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
-- 支援: ```Server```
+- 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```String``` ```Int```
 - 說明: Minecraft Java Edition 帳號認證
@@ -124,7 +133,7 @@
 - 完整指令: ```/mc be user [玩家代號]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 1
-- 支援: ```Server```
+- 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```String``` ```Int```
 - 說明: Minecraft Bedrock Edition 帳號認證
