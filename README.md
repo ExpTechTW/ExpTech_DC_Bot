@@ -67,7 +67,7 @@
 # /et
 ## bot
 #### register 
-- 完整指令: ```/et register```
+- 完整指令: ```/et bot register```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
 - 支援: ```Server```
@@ -77,14 +77,14 @@
 ，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
 
 ## set
-#### apikey
-- 完整指令: ```/et set apikey [你的 API Key]```
+#### resetAPIKey
+- 完整指令: ```/et set resetAPIKey [你的 API Key]```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
 - 支援: ```Server```
 - 默認: ```null```
-- 選項: ```String```
-- 說明: 用來向 ExpTech_Discord_Bot 註冊服務
+- 選項: ```null```
+- 說明: 用來向 ExpTech API 請求重置 API Key
 
 #### urlchecker
 - 完整指令: ```/et set urlchecker [選項]```
