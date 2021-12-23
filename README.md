@@ -35,7 +35,7 @@
 ## 開始
 #### 註冊服務
 * 1.邀請 Discord 機器人
-* 2.使用 /et bot register 申請服務並獲取 APIKey
+* 2.使用 /et bot register 申請服務並獲取 API Key
 * 3.使用 /et bot apikey [你的 API Key] 來註冊服務
 
 ## 權限
@@ -113,7 +113,7 @@
 
 #### user
 - 完整指令: ```/mc je user [玩家代號]```
-- 加入版本: 21w52-pre1
+- 加入版本: 尚未完成
 - 權限: ≥ 1
 - 支援: ```Server``` ```User```
 - 默認: ```null```
@@ -132,7 +132,7 @@
 
 #### user
 - 完整指令: ```/mc be user [玩家代號]```
-- 加入版本: 21w52-pre1
+- 加入版本: 尚未完成
 - 權限: ≥ 1
 - 支援: ```Server``` ```User```
 - 默認: ```null```
@@ -140,4 +140,7 @@
 - 說明: Minecraft Bedrock Edition 帳號認證
 
 # 貢獻者
-* whes1015 - 程式開發
+- 程式開發
+  - whes1015
+- 除錯
+  - Andrew07145849
