@@ -36,9 +36,8 @@
 #### 註冊服務
 * 1.邀請 Discord 機器人
 * 2.使用 /et bot register 申請服務並獲取 API Key
-* 3.使用 /et bot apikey [你的 API Key] 來註冊服務
-* 4.API 用法請參考 [這裡](https://github.com/ExpTechTW/API/blob/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/README.md)
-* 5.若 API Key 洩漏 請使用 /et bot resetAPIKey
+* 3.API 用法請參考 [這裡](https://github.com/ExpTechTW/API/blob/%E4%B8%BB%E8%A6%81%E7%9A%84-(main)/README.md)
+* 4.若 API Key 洩漏 請使用 /et bot resetAPIKey
 
 ## 權限
 - 4 - owner - 擁有者
@@ -52,8 +51,8 @@
 - [/et](#et)
   - [bot]()
     - register
+    - resetAPIKey
   - [set](#set)
-    - apikey
     - urlchecker
     - certifiedNameChange
 - [/mc](#mc)
@@ -76,9 +75,8 @@
 - 說明: 每個伺服器可以申請一個 API Key 用來註冊 ExpTech_Discord_Bot 的服務
 ，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
 
-## set
 #### resetAPIKey
-- 完整指令: ```/et set resetAPIKey [你的 API Key]```
+- 完整指令: ```/et set resetAPIKey```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
 - 支援: ```Server```
@@ -86,6 +84,7 @@
 - 選項: ```null```
 - 說明: 用來向 ExpTech API 請求重置 API Key
 
+## set
 #### urlchecker
 - 完整指令: ```/et set urlchecker [選項]```
 - 加入版本: 21w52-pre1
