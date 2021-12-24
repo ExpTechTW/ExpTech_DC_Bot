@@ -56,6 +56,7 @@
   - [set](#set)
     - urlChecker
     - certifiedNameChange
+    - urlCheckerShield
 - [/mc](#mc)
   - [je](#je)
     - certified
@@ -112,6 +113,16 @@
 - 默認: ```false```
 - 選項: ```false``` ```true```
 - 說明: 認證後更改用戶暱稱
+
+#### urlCheckerShield
+- 完整指令: ```/et set urlCheckerShield [選項]```
+- 加入版本: 21w52-pre1
+- 權限: ≥ 3
+- 支援: ```Server```
+- 默認: ```false```
+- 選項: ```false``` ```true```
+- 說明: 屏蔽 urlChecker 的 Safety 回報
+- 貢獻: ```༄༊࿆さくらじま まいོྂཾ࿐ #0001```
 
 # /mc
 ## je
