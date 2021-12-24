@@ -88,7 +88,7 @@
 
 #### resetAPIKey
 - 完整指令: ```/et bot resetAPIKey```
-- 加入版本: 21w52-pre
+- 加入版本: 21w52-pre3
 - 權限: ≥ 4
 - 支援: ```Server```
 - 默認: ```null```
@@ -107,7 +107,7 @@
 
 #### certifiedNameChange
 - 完整指令: ```/et set certifiedNameChange [選項]```
-- 加入版本: 21w52-pre1
+- 加入版本: 21w52-pre3
 - 權限: ≥ 3
 - 支援: ```Server```
 - 默認: ```false```
@@ -116,7 +116,7 @@
 
 #### urlCheckerShield
 - 完整指令: ```/et set urlCheckerShield [選項]```
-- 加入版本: 21w52-pre1
+- 加入版本: 21w52-pre6
 - 權限: ≥ 3
 - 支援: ```Server```
 - 默認: ```false```
