@@ -80,7 +80,7 @@
 - 完整指令: ```/et bot register```
 - 加入版本: 21w52-pre1
 - 權限: ≥ 4
-- 支援: ```Server```
+- 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```null```
 - 說明: 每個伺服器可以申請一個 API Key 用來啟動 ExpTech_Discord_Bot 的服務
@@ -90,7 +90,7 @@
 - 完整指令: ```/et bot resetAPIKey```
 - 加入版本: 21w52-pre3
 - 權限: ≥ 4
-- 支援: ```Server```
+- 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```null```
 - 說明: 用來向 ExpTech API 請求重置 API Key
