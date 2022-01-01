@@ -83,8 +83,8 @@
 - 支援: ```Server``` ```User```
 - 默認: ```null```
 - 選項: ```null```
-- 說明: 每個伺服器可以申請一個 API Key 用來啟動 ExpTech_Discord_Bot 的服務
-，或是用來自製機器人，每個 API Key 的每日請求限制為 50000 次。
+- 說明: 每個 (伺服器/用戶) 可以申請一個 API Key 用來 啟動 ExpTech_Discord_Bot 的服務
+、自製機器人 或是 製作其他程式，每個 API Key 的每日請求限制為 50000 次。
 
 #### resetAPIKey
 - 完整指令: ```/et bot resetAPIKey```
