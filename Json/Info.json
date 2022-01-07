@@ -26,5 +26,37 @@
     {
         "name": "Q&A",
         "value": "**Q: 為什麼我一定要認證 ?**\nA: 認證是為了取得 UUID 並且把 Minecraft 帳號和 Discord 綁定\n\n**Q: 綁定可以做什麼 ?**\nA: 可以在我們的官方頁面登入 Discord 查詢到遊戲中的數據\n\n**Q: 我想合作可以嗎 ?**\nA: 當然，我們深刻的了解到我們仍有許多不足的地方，你的加入或許可以協助我們解決更多問題，何不嘗試看看 ?"
+    },
+    {
+        "name": "lastAPI",
+        "value":"FUNCTION-api"
+    },
+    {
+        "name": "lastBot",
+        "value":"FUNCTION-bot"
+    },
+    {
+        "name": "lastPlugin",
+        "value":"FUNCTION-plugin"
+    },
+    {
+        "name": "lastWeb",
+        "value":"FUNCTION-web"
+    },
+    {
+        "name": "API",
+        "value":"FUNCTION-api"
+    },
+    {
+        "name": "Bot",
+        "value":"FUNCTION-bot"
+    },
+    {
+        "name": "Plugin",
+        "value":"FUNCTION-plugin"
+    },
+    {
+        "name": "Web",
+        "value":"FUNCTION-web"
     }
 ]
