@@ -20,8 +20,12 @@
         "value": "**API**\nhttps://github.com/ExpTechTW/API\n**ExpTech_Spigot**\nhttps://github.com/ExpTechTW/ExpTech_Spigot\n**ExpTech_Discord_Bot**\nhttps://github.com/ExpTechTW/ExpTech_Discord_Bot\n**ExpTech_Website**\nhttps://github.com/ExpTechTW/ExpTech_Website"
     },
     {
-        "name": "website",
-        "value": "**你可以在這查詢到你的方塊挖掘記錄 (更多功能開發中)**\nhttps://exptech.mywire.org/server/index.php"
+        "name": "web",
+        "value": "**ExpTech 官網**\nhttps://exptech.mywire.org/server/index.php"
+    },
+    {
+        "name": "dweb",
+        "value": "**你可以在這查詢到你的各項統計數據 (更多功能開發中)**\nhttps://exptechweb.mywire.org/server/index.php"
     },
     {
         "name": "Q&A",
